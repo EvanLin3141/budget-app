@@ -1,0 +1,40 @@
+{
+  "2024": {
+    "January": {
+      "income": [
+        {"source": "salary", "amount": 3000},
+        {"source": "freelance", "amount": 500}
+      ],
+      "expenditure": [
+        {"item": "grocery", "amount": 400},
+        {"item": "rent", "amount": 1200},
+        {"item": "transport", "amount": 150}
+      ],
+      "entertainment": [
+        {"item": "movies", "amount": 50},
+        {"item": "games", "amount": 80}
+      ]
+    },
+    "February": {
+      "income": [
+        {"source": "salary", "amount": 3100}
+      ],
+      "expenditure": [
+        {"item": "grocery", "amount": 420},
+        {"item": "rent", "amount": 1200}
+      ],
+      "entertainment": [
+        {"item": "concert", "amount": 120}
+      ]
+    }
+  },
+  "2025": {
+    "January": {
+      "income": [
+        {"source": "salary", "amount": 3200}
+      ],
+      "expenditure": [],
+      "entertainment": []
+    }
+  }
+}

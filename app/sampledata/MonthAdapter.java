@@ -1,5 +1,6 @@
 package com.example.learning;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,9 +13,13 @@ import java.util.ArrayList;
 
 public class MonthAdapter extends RecyclerView.Adapter<MonthAdapter.ViewHolder>{
 
-    private ArrayList<Month> months = new ArrayList<>();
+    ArrayList<Month> months = new ArrayList<>();
+    RecycleViewInterface recycleViewInterface;
+    Context context;
 
-    public MonthAdapter() {
+    public MonthAdapter(RecycleViewInterface recyclerViewInterface) {
+        this.context = context;
+        this.recycleViewInterface = recycleViewInterface;
     }
 
     public void setMonths(ArrayList<Month> months) {
@@ -35,20 +40,28 @@ public class MonthAdapter extends RecyclerView.Adapter<MonthAdapter.ViewHolder>{
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.month, parent, false);
-        return new ViewHolder(view);
+        View view = LayoutInflater.from(this.context).inflate(R.layout.month, parent, false);
+
+        return new MonthAdapter.ViewHolder(view, this.recycleViewInterface);
     }
-
-
-
 
 
     static class ViewHolder extends RecyclerView.ViewHolder {
         private TextView month;
-        public ViewHolder(@NonNull View itemView) {
+        public ViewHolder(@NonNull View itemView, RecycleViewInterface recyclerViewInterface) {
             super(itemView);
             month = itemView.findViewById(R.id.month);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    int position = getBindingAdapterPosition();
+                    if (position != RecyclerView.NO_POSITION) {
+                        recyclerViewInterface.onItemClick(position);
+                    }
+                }
+            });
         }
+
     }
 
 }
