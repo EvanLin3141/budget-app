@@ -15,5 +15,4 @@ public class Month {
         this.month = month;
     }
 
-
 }

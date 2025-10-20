@@ -1,6 +1,7 @@
 package com.example.learning;
 
 import android.os.Bundle;
+import android.util.Log;
 
 
 import androidx.activity.EdgeToEdge;
@@ -11,6 +12,19 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.reflect.TypeToken;
+
+import java.io.InputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.lang.reflect.Type;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,19 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         monthRecView = findViewById(R.id.monthRecView);
 
-        ArrayList<Month> months = new ArrayList<>();
-        months.add(new Month("January"));
-        months.add(new Month("February"));
-        months.add(new Month("March"));
-        months.add(new Month("April"));
-        months.add(new Month("May"));
-        months.add(new Month("June"));
-        months.add(new Month("July"));
-        months.add(new Month("August"));
-        months.add(new Month("September"));
-        months.add(new Month("October"));
-        months.add(new Month("November"));
-        months.add(new Month("December"));
+        ArrayList<Month> months = loadMonths();
 
         MonthAdapter adapter = new MonthAdapter();
         adapter.setMonths(months);
@@ -50,5 +52,29 @@ public class MainActivity extends AppCompatActivity {
         monthRecView.setAdapter(adapter);
         monthRecView.setLayoutManager(new LinearLayoutManager(this));
 
+    }
+
+    public ArrayList<Month> loadMonths() {
+        ArrayList<Month> months = new ArrayList<>();
+        try {
+            InputStream stream = getAssets().open("months.json");
+            InputStreamReader reader = new InputStreamReader(stream, StandardCharsets.UTF_8);
+            JsonObject jsonObject = JsonParser.parseReader(reader).getAsJsonObject();
+            JsonArray monthArray = jsonObject.getAsJsonArray("months");
+            Log.d("Test", "test");
+
+            for (JsonElement element : monthArray) {
+                JsonObject monthObj = element.getAsJsonObject();
+                String name = monthObj.get("name").getAsString();
+                months.add(new Month(name));
+                Log.d("Months", name);
+
+            }
+
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return months;
     }
 }

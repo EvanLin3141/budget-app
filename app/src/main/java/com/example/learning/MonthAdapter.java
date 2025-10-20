@@ -17,12 +17,9 @@ public class MonthAdapter extends RecyclerView.Adapter<MonthAdapter.ViewHolder>{
     public MonthAdapter() {
     }
 
-    @NonNull
-    @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.month, parent, false);
-        ViewHolder holder = new ViewHolder(view);
-        return holder;
+    public void setMonths(ArrayList<Month> months) {
+        this.months = months;
+        notifyDataSetChanged(); // Update to new data
     }
 
     @Override
@@ -35,13 +32,18 @@ public class MonthAdapter extends RecyclerView.Adapter<MonthAdapter.ViewHolder>{
         return months.size();
     }
 
-    public void setMonths(ArrayList<Month> months) {
-        this.months = months;
-        notifyDataSetChanged(); // Update to new data
+    @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.month, parent, false);
+        return new ViewHolder(view);
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
 
+
+
+
+    static class ViewHolder extends RecyclerView.ViewHolder {
         private TextView month;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -50,3 +52,4 @@ public class MonthAdapter extends RecyclerView.Adapter<MonthAdapter.ViewHolder>{
     }
 
 }
+
