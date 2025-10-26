@@ -2,6 +2,7 @@ package com.example.learning;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -15,55 +16,53 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.learning.Calendar.Month;
 import com.example.learning.Calendar.Year;
-import com.example.learning.Data.BudgetData;
-import com.example.learning.Data.BudgetDataRepository;
+import com.example.learning.adapter.MonthAdapter;
 import com.example.learning.adapter.YearAdapter;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements RecycleViewInterface {
+public class YearlyBudgetActivity extends AppCompatActivity implements RecycleViewInterface {
 
-    RecyclerView yearRecycleView;
-    ArrayList<Year>  years;
-    ArrayList<Month>  months;
-    BudgetData data;
-    BudgetDataRepository budgetRepository;
+    RecyclerView monthRecycleView;
+    Year selectedYear;
+    TextView txtTitle;
+    MonthAdapter monthAdapter;
+
+    ArrayList<Month> months;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.month_layout);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        yearRecycleView = findViewById(R.id.yearRecycleView);
-        data = new BudgetData(this);
-        budgetRepository.setData(data);
 
-        years = data.getYearsList();
-        months = data.getMonthsList();
+        // get data
+        Intent intent = getIntent();
+        Bundle bundle = intent.getExtras();
+        monthRecycleView = findViewById(R.id.monthRecycleView);
+        selectedYear= (Year)bundle.getSerializable("year");
 
-        // setting into adapter
-        YearAdapter yearAdapter = new YearAdapter(getApplicationContext(), R.layout.year, years, this);
-        yearRecycleView.setLayoutManager(new LinearLayoutManager(this));
-        yearRecycleView.setAdapter(yearAdapter);
+        txtTitle = findViewById(R.id.txtTitle);
+        txtTitle.setText(selectedYear.getYear() + " Budget");
 
+        months = selectedYear.getMonths();
+        RecyclerView monthRecycleView = findViewById(R.id.monthRecycleView);
+        MonthAdapter monthAdapter = new MonthAdapter(getApplicationContext(), R.layout.month, months, this);
+        monthRecycleView.setLayoutManager(new LinearLayoutManager(this));
+        monthRecycleView.setAdapter(monthAdapter);
     }
 
     @Override
     public void onItemClick(int position) {
-        Year selectedYear = years.get(position);
+        Month selectedMonth = months.get(position);
         Toast.makeText(this,"selected "+selectedYear, Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(MainActivity.this, YearlyBudgetActivity.class);
-        Bundle bundle = new Bundle();
-
-        bundle.putSerializable("year", selectedYear);
-        intent.putExtras(bundle);
-        startActivity(intent);
     }
+
 }

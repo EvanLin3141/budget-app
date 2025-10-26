@@ -1,8 +1,11 @@
-package com.example.learning;
+package com.example.learning.Data;
 
 import android.content.Context;
 import android.util.Log;
 
+import com.example.learning.Category;
+import com.example.learning.Calendar.Month;
+import com.example.learning.Calendar.Year;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -17,9 +20,16 @@ import java.util.ArrayList;
 public class BudgetData {
 
     private ArrayList<Year> yearsList = new ArrayList<>();
+    private ArrayList<Month> monthsList = new ArrayList<>();
+    private ArrayList<Category> categories = new ArrayList<>();
+
 
     public ArrayList<Year> getYearsList() {
         return yearsList;
+    }
+
+    public ArrayList<Month> getMonthsList() {
+        return monthsList;
     }
 
     private Context context;
@@ -32,12 +42,11 @@ public class BudgetData {
             InputStreamReader reader = new InputStreamReader(stream, StandardCharsets.UTF_8);
             JsonObject jsonObject = JsonParser.parseReader(reader).getAsJsonObject();
             reader.close();
-            // Iterate top-level years
+
             for (String yearKey : jsonObject.keySet()) {
                 Year year = new Year(yearKey);
                 JsonObject monthsObj = jsonObject.getAsJsonObject(yearKey);
 
-                // Iterate months
                 for (String monthKey : monthsObj.keySet()) {
                     Month month = new Month(monthKey);
                     JsonObject categoriesObj = monthsObj.getAsJsonObject(monthKey);

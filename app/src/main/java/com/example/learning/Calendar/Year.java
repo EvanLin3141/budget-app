@@ -1,8 +1,9 @@
-package com.example.learning;
+package com.example.learning.Calendar;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Year {
+public class Year implements Serializable {
     public String year;
     public ArrayList<Month> months = new ArrayList<>();
 
@@ -16,5 +17,14 @@ public class Year {
 
     public void setYear(String year) {
         this.year = year;
+    }
+
+    public ArrayList<Month> getMonths() {
+        return months;
+    }
+
+    @Override
+    public String toString() {
+        return year;
     }
 }

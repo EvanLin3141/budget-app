@@ -1,5 +1,6 @@
-package com.example.learning;
+package com.example.learning.adapter;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,21 +9,33 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.learning.Calendar.Month;
+import com.example.learning.R;
+import com.example.learning.RecycleViewInterface;
+import com.example.learning.Calendar.Year;
+
 import java.util.ArrayList;
 
 public class YearAdapter extends RecyclerView.Adapter<YearAdapter.ViewHolder> {
     private ArrayList<Year> years;
-    private RecycleViewInterface listener;
 
-    public YearAdapter(ArrayList<Year> years, RecycleViewInterface listener) {
+    private RecycleViewInterface listener;
+    Context context;
+    int layout;
+
+
+
+    public YearAdapter(Context context, int layout, ArrayList<Year> years, RecycleViewInterface listener) {
+        this.context = context;
         this.years = years;
         this.listener = listener;
+        this.layout = layout;
     }
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.year, parent, false);
+        View view = LayoutInflater.from(this.context).inflate(this.layout, parent, false);
         return new ViewHolder(view);
     }
 

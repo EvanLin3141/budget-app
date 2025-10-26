@@ -1,23 +1,26 @@
-package com.example.learning;
+package com.example.learning.Calendar;
 
+import com.example.learning.Category;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Month {
-    public String monthName;
+public class Month implements Serializable {
+    public String month;
     public ArrayList<Category> income = new ArrayList<>();
     public ArrayList<Category> expenditure = new ArrayList<>();
     public ArrayList<Category> entertainment = new ArrayList<>();
 
-    public Month(String monthName) {
-        this.monthName = monthName;
+    public Month(String month) {
+        this.month = month;
     }
 
-    public String getMonthName() {
-        return monthName;
+    public String getMonth() {
+        return month;
     }
 
-    public void setMonthName(String monthName) {
-        this.monthName = monthName;
+    public void setMonth(String month) {
+        this.month = month;
     }
 
     public ArrayList<Category> getIncome() {

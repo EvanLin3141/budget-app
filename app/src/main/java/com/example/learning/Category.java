@@ -1,8 +1,10 @@
 package com.example.learning;
 
-public class Category{
-    public String name;
-    public int amount;
+import java.io.Serializable;
+
+public class Category implements Serializable {
+    private String name;
+    private int amount;
 
     public Category(String name, int amount) {
         this.name = name;
@@ -13,15 +15,7 @@ public class Category{
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public int getAmount() {
         return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
     }
 }
