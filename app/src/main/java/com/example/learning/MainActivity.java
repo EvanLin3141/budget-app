@@ -13,10 +13,9 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.learning.Calendar.Month;
-import com.example.learning.Calendar.Year;
-import com.example.learning.Data.BudgetData;
-import com.example.learning.Data.BudgetDataRepository;
+import com.example.learning.classes.Month;
+import com.example.learning.classes.Year;
+//import com.example.learning.data.BudgetDataRepository;
 import com.example.learning.adapter.YearAdapter;
 
 import java.util.ArrayList;
@@ -27,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements RecycleViewInterf
     ArrayList<Year>  years;
     ArrayList<Month>  months;
     BudgetData data;
-    BudgetDataRepository budgetRepository;
+    //BudgetDataRepository budgetRepository;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements RecycleViewInterf
 
         yearRecycleView = findViewById(R.id.yearRecycleView);
         data = new BudgetData(this);
-        budgetRepository.setData(data);
+        //budgetRepository.setData(data);
 
         years = data.getYearsList();
         months = data.getMonthsList();

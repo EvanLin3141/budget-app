@@ -14,10 +14,9 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.learning.Calendar.Month;
-import com.example.learning.Calendar.Year;
 import com.example.learning.adapter.MonthAdapter;
-import com.example.learning.adapter.YearAdapter;
+import com.example.learning.classes.Month;
+import com.example.learning.classes.Year;
 
 import java.util.ArrayList;
 
@@ -61,7 +60,15 @@ public class YearlyBudgetActivity extends AppCompatActivity implements RecycleVi
     @Override
     public void onItemClick(int position) {
         Month selectedMonth = months.get(position);
-        Toast.makeText(this,"selected "+selectedYear, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"selected "+selectedMonth, Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(YearlyBudgetActivity.this, CategoryActivity.class);
+        Bundle bundle = new Bundle();
+
+        bundle.putSerializable("month", selectedMonth);
+        bundle.putSerializable("year", selectedYear);
+        intent.putExtras(bundle);
+        startActivity(intent);
 
     }
 

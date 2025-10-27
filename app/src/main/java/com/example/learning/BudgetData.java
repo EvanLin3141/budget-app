@@ -1,11 +1,11 @@
-package com.example.learning.Data;
+package com.example.learning;
 
 import android.content.Context;
 import android.util.Log;
 
-import com.example.learning.Category;
-import com.example.learning.Calendar.Month;
-import com.example.learning.Calendar.Year;
+import com.example.learning.classes.Category;
+import com.example.learning.classes.Month;
+import com.example.learning.classes.Year;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

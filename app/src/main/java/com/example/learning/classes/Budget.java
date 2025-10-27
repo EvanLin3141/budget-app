@@ -1,4 +1,4 @@
-package com.example.learning;
+package com.example.learning.classes;
 
 import android.content.Context;
 

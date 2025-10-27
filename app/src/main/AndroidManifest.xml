@@ -24,6 +24,14 @@
         <activity
             android:name=".YearlyBudgetActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".CategoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".BudgetDetailsActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

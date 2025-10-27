@@ -1,4 +1,4 @@
-package com.example.learning.Calendar;
+package com.example.learning.classes;
 
 import java.io.Serializable;
 import java.util.ArrayList;

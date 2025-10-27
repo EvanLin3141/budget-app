@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="19dp"
-        android:text="BUDGET APP"
         android:textStyle="bold"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"

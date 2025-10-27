@@ -26,6 +26,18 @@
       "entertainment": [
         {"item": "concert", "amount": 120}
       ]
+    },
+    "March": {
+      "income": [
+        {"source": "salary", "amount": 3100}
+      ],
+      "expenditure": [
+        {"item": "grocery", "amount": 420},
+        {"item": "rent", "amount": 1200}
+      ],
+      "entertainment": [
+        {"item": "concert", "amount": 120}
+      ]
     }
   },
   "2025": {
