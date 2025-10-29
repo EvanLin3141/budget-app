@@ -1,52 +1,2870 @@
 {
-  "2024": {
+  "2020": {
     "January": {
       "income": [
-        {"source": "salary", "amount": 3000},
-        {"source": "freelance", "amount": 500}
+        {
+          "source": "salary",
+          "amount": 2675
+        }
       ],
       "expenditure": [
-        {"item": "grocery", "amount": 400},
-        {"item": "rent", "amount": 1200},
-        {"item": "transport", "amount": 150}
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
       ],
       "entertainment": [
-        {"item": "movies", "amount": 50},
-        {"item": "games", "amount": 80}
+        {
+          "item": "movies",
+          "amount": 40
+        }
       ]
     },
     "February": {
       "income": [
-        {"source": "salary", "amount": 3100}
+        {
+          "source": "salary",
+          "amount": 2700
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
       ],
       "expenditure": [
-        {"item": "grocery", "amount": 420},
-        {"item": "rent", "amount": 1200}
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 370
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
       ],
       "entertainment": [
-        {"item": "concert", "amount": 120}
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
       ]
     },
     "March": {
       "income": [
-        {"source": "salary", "amount": 3100}
+        {
+          "source": "salary",
+          "amount": 2725
+        }
       ],
       "expenditure": [
-        {"item": "grocery", "amount": 420},
-        {"item": "rent", "amount": 1200}
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "insurance",
+          "amount": 300
+        }
       ],
       "entertainment": [
-        {"item": "concert", "amount": 120}
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        },
+        {
+          "item": "theatre",
+          "amount": 90
+        }
+      ]
+    },
+    "April": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2675
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "May": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2700
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        },
+        {
+          "item": "medical",
+          "amount": 120
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "theatre",
+          "amount": 90
+        },
+        {
+          "item": "sports event",
+          "amount": 110
+        }
+      ]
+    },
+    "June": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2725
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "sports event",
+          "amount": 120
+        },
+        {
+          "item": "streaming",
+          "amount": 25
+        },
+        {
+          "item": "museum",
+          "amount": 35
+        }
+      ]
+    },
+    "July": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2675
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "streaming",
+          "amount": 25
+        }
+      ]
+    },
+    "August": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2700
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "museum",
+          "amount": 35
+        },
+        {
+          "item": "movies",
+          "amount": 50
+        }
+      ]
+    },
+    "September": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2725
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "maintenance",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        },
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "October": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2675
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 140
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        }
+      ]
+    },
+    "November": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2700
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "December": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2725
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1100
+        },
+        {
+          "item": "grocery",
+          "amount": 430
+        },
+        {
+          "item": "utilities",
+          "amount": 160
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        },
+        {
+          "item": "gifts",
+          "amount": 250
+        },
+        {
+          "item": "travel",
+          "amount": 400
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 80
+        },
+        {
+          "item": "theatre",
+          "amount": 100
+        },
+        {
+          "item": "sports event",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  "2021": {
+    "January": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2825
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        }
+      ]
+    },
+    "February": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2850
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 370
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "March": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2875
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "insurance",
+          "amount": 300
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        },
+        {
+          "item": "theatre",
+          "amount": 90
+        }
+      ]
+    },
+    "April": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2825
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "May": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2850
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        },
+        {
+          "item": "medical",
+          "amount": 120
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "theatre",
+          "amount": 90
+        },
+        {
+          "item": "sports event",
+          "amount": 110
+        }
+      ]
+    },
+    "June": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2875
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "sports event",
+          "amount": 120
+        },
+        {
+          "item": "streaming",
+          "amount": 25
+        },
+        {
+          "item": "museum",
+          "amount": 35
+        }
+      ]
+    },
+    "July": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2825
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "streaming",
+          "amount": 25
+        }
+      ]
+    },
+    "August": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2850
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "museum",
+          "amount": 35
+        },
+        {
+          "item": "movies",
+          "amount": 50
+        }
+      ]
+    },
+    "September": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2875
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "maintenance",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        },
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "October": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2825
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 140
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        }
+      ]
+    },
+    "November": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2850
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "December": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2875
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1120
+        },
+        {
+          "item": "grocery",
+          "amount": 430
+        },
+        {
+          "item": "utilities",
+          "amount": 160
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        },
+        {
+          "item": "gifts",
+          "amount": 250
+        },
+        {
+          "item": "travel",
+          "amount": 300
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 80
+        },
+        {
+          "item": "theatre",
+          "amount": 100
+        },
+        {
+          "item": "sports event",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  "2022": {
+    "January": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2925
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        }
+      ]
+    },
+    "February": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2950
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 370
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "March": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2975
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "insurance",
+          "amount": 300
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        },
+        {
+          "item": "theatre",
+          "amount": 90
+        }
+      ]
+    },
+    "April": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2925
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "May": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2950
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        },
+        {
+          "item": "medical",
+          "amount": 120
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "theatre",
+          "amount": 90
+        },
+        {
+          "item": "sports event",
+          "amount": 110
+        }
+      ]
+    },
+    "June": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2975
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "sports event",
+          "amount": 120
+        },
+        {
+          "item": "streaming",
+          "amount": 25
+        },
+        {
+          "item": "museum",
+          "amount": 35
+        }
+      ]
+    },
+    "July": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2925
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "streaming",
+          "amount": 25
+        }
+      ]
+    },
+    "August": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2950
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "museum",
+          "amount": 35
+        },
+        {
+          "item": "movies",
+          "amount": 50
+        }
+      ]
+    },
+    "September": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2975
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "maintenance",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        },
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "October": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2925
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 140
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        }
+      ]
+    },
+    "November": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2950
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "December": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 2975
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1150
+        },
+        {
+          "item": "grocery",
+          "amount": 430
+        },
+        {
+          "item": "utilities",
+          "amount": 160
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        },
+        {
+          "item": "gifts",
+          "amount": 250
+        },
+        {
+          "item": "travel",
+          "amount": 400
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 80
+        },
+        {
+          "item": "theatre",
+          "amount": 100
+        },
+        {
+          "item": "sports event",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  "2023": {
+    "January": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3075
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        }
+      ]
+    },
+    "February": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3100
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 370
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "March": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3125
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "insurance",
+          "amount": 300
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        },
+        {
+          "item": "theatre",
+          "amount": 90
+        }
+      ]
+    },
+    "April": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3075
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "May": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3100
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        },
+        {
+          "item": "medical",
+          "amount": 120
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "theatre",
+          "amount": 90
+        },
+        {
+          "item": "sports event",
+          "amount": 110
+        }
+      ]
+    },
+    "June": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3125
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "sports event",
+          "amount": 120
+        },
+        {
+          "item": "streaming",
+          "amount": 25
+        },
+        {
+          "item": "museum",
+          "amount": 35
+        }
+      ]
+    },
+    "July": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3075
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "streaming",
+          "amount": 25
+        }
+      ]
+    },
+    "August": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3100
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "museum",
+          "amount": 35
+        },
+        {
+          "item": "movies",
+          "amount": 50
+        }
+      ]
+    },
+    "September": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3125
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "maintenance",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        },
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "October": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3075
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 140
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        }
+      ]
+    },
+    "November": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3100
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "December": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3125
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1180
+        },
+        {
+          "item": "grocery",
+          "amount": 430
+        },
+        {
+          "item": "utilities",
+          "amount": 160
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        },
+        {
+          "item": "gifts",
+          "amount": 250
+        },
+        {
+          "item": "travel",
+          "amount": 300
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 80
+        },
+        {
+          "item": "theatre",
+          "amount": 100
+        },
+        {
+          "item": "sports event",
+          "amount": 120
+        }
+      ]
+    }
+  },
+  "2024": {
+    "January": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3075
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        }
+      ]
+    },
+    "February": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3100
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 370
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "March": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3125
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "insurance",
+          "amount": 300
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        },
+        {
+          "item": "theatre",
+          "amount": 90
+        }
+      ]
+    },
+    "April": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3075
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "May": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3100
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        },
+        {
+          "item": "medical",
+          "amount": 120
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "theatre",
+          "amount": 90
+        },
+        {
+          "item": "sports event",
+          "amount": 110
+        }
+      ]
+    },
+    "June": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3125
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "sports event",
+          "amount": 120
+        },
+        {
+          "item": "streaming",
+          "amount": 25
+        },
+        {
+          "item": "museum",
+          "amount": 35
+        }
+      ]
+    },
+    "July": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3075
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "streaming",
+          "amount": 25
+        }
+      ]
+    },
+    "August": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3100
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "museum",
+          "amount": 35
+        },
+        {
+          "item": "movies",
+          "amount": 50
+        }
+      ]
+    },
+    "September": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3125
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "maintenance",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        },
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "October": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3075
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 140
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        }
+      ]
+    },
+    "November": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3100
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "December": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3125
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1200
+        },
+        {
+          "item": "grocery",
+          "amount": 430
+        },
+        {
+          "item": "utilities",
+          "amount": 160
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        },
+        {
+          "item": "gifts",
+          "amount": 250
+        },
+        {
+          "item": "travel",
+          "amount": 300
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 80
+        },
+        {
+          "item": "theatre",
+          "amount": 100
+        },
+        {
+          "item": "sports event",
+          "amount": 120
+        }
       ]
     }
   },
   "2025": {
     "January": {
       "income": [
-        {"source": "salary", "amount": 3200}
+        {
+          "source": "salary",
+          "amount": 3175
+        }
       ],
-      "expenditure": [],
-      "entertainment": []
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        }
+      ]
+    },
+    "February": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3200
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 370
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "March": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3225
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 380
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "insurance",
+          "amount": 300
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        },
+        {
+          "item": "theatre",
+          "amount": 90
+        }
+      ]
+    },
+    "April": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3175
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "May": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        },
+        {
+          "item": "medical",
+          "amount": 120
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "theatre",
+          "amount": 90
+        },
+        {
+          "item": "sports event",
+          "amount": 110
+        }
+      ]
+    },
+    "June": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3225
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 140
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "sports event",
+          "amount": 120
+        },
+        {
+          "item": "streaming",
+          "amount": 25
+        },
+        {
+          "item": "museum",
+          "amount": 35
+        }
+      ]
+    },
+    "July": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3175
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "streaming",
+          "amount": 25
+        }
+      ]
+    },
+    "August": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3200
+        },
+        {
+          "source": "freelance",
+          "amount": 300
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 420
+        },
+        {
+          "item": "utilities",
+          "amount": 120
+        },
+        {
+          "item": "transport",
+          "amount": 130
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "museum",
+          "amount": 35
+        },
+        {
+          "item": "movies",
+          "amount": 50
+        }
+      ]
+    },
+    "September": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3225
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 410
+        },
+        {
+          "item": "utilities",
+          "amount": 130
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        },
+        {
+          "item": "maintenance",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "movies",
+          "amount": 40
+        },
+        {
+          "item": "games",
+          "amount": 60
+        },
+        {
+          "item": "concert",
+          "amount": 120
+        }
+      ]
+    },
+    "October": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3175
+        },
+        {
+          "source": "freelance",
+          "amount": 200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 400
+        },
+        {
+          "item": "utilities",
+          "amount": 140
+        },
+        {
+          "item": "transport",
+          "amount": 150
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "games",
+          "amount": 60
+        }
+      ]
+    },
+    "November": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3200
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 390
+        },
+        {
+          "item": "utilities",
+          "amount": 150
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "concert",
+          "amount": 120
+        },
+        {
+          "item": "dining out",
+          "amount": 70
+        }
+      ]
+    },
+    "December": {
+      "income": [
+        {
+          "source": "salary",
+          "amount": 3225
+        },
+        {
+          "source": "freelance",
+          "amount": 400
+        }
+      ],
+      "expenditure": [
+        {
+          "item": "rent",
+          "amount": 1250
+        },
+        {
+          "item": "grocery",
+          "amount": 430
+        },
+        {
+          "item": "utilities",
+          "amount": 160
+        },
+        {
+          "item": "transport",
+          "amount": 160
+        },
+        {
+          "item": "gifts",
+          "amount": 250
+        },
+        {
+          "item": "travel",
+          "amount": 400
+        }
+      ],
+      "entertainment": [
+        {
+          "item": "dining out",
+          "amount": 80
+        },
+        {
+          "item": "theatre",
+          "amount": 100
+        },
+        {
+          "item": "sports event",
+          "amount": 120
+        }
+      ]
     }
   }
 }

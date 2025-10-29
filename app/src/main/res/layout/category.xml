@@ -96,7 +96,7 @@
                 android:layout_height="60dp"
                 android:layout_marginEnd="16dp"
                 android:contentDescription="Expenditure icon"
-                android:src="@drawable/income" />
+                android:src="@drawable/expenses" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -138,7 +138,7 @@
                 android:layout_height="60dp"
                 android:layout_marginEnd="16dp"
                 android:contentDescription="Entertainment icon"
-                android:src="@drawable/income" />
+                android:src="@drawable/entertainments" />
 
             <LinearLayout
                 android:layout_width="0dp"
