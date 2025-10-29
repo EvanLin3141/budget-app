@@ -1,9 +1,11 @@
 package com.example.learning;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.widget.Button;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -21,13 +23,15 @@ public class BudgetDetailsActivity extends AppCompatActivity {
 
     TextView txtTitle;
     TableLayout tableLayout;
+    Button webUrlButton;
+    private String weburl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_budget_details);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.budgetScrollView), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
@@ -35,32 +39,39 @@ public class BudgetDetailsActivity extends AppCompatActivity {
 
         txtTitle = findViewById(R.id.txtTitle);
         tableLayout = findViewById(R.id.tableLayout);
+        webUrlButton = findViewById(R.id.budget_button);
 
         Bundle bundle = getIntent().getExtras();
+
+        weburl = "https://google.com";
         if (bundle != null) {
             String categoryType = bundle.getString("categoryType");
+
+            // Get the right category for the right url link
+            switch(categoryType) {
+                case "Income":
+                    weburl = "https://ie.indeed.com/career-advice/finding-a-job/side-hustle-ideas";
+                    break;
+                case "Expenditure":
+                    weburl = "https://www.truist.com/money-mindset/principles/budgeting-by-values/reducing-your-expenses";
+                    break;
+                case "Entertainment":
+                    weburl = "https://www.theguardian.com/thefilter/2025/feb/27/how-to-stop-impulse-buying";
+                    break;
+                default:
+                    break;
+            }
+
             ArrayList<Category> categoryData =
                     (ArrayList<Category>) bundle.getSerializable("categoryData");
 
             txtTitle.setText(categoryType + " Details");
 
-
-            // build text content from categoryData
-            StringBuilder sourcesBuilder = new StringBuilder();
-            StringBuilder amountsBuilder = new StringBuilder();
-
             for (int i = 0; i < categoryData.size(); i++) {
                 Category item = categoryData.get(i);
 
                 TableRow row = new TableRow(this);
-                row.setPadding(0, 4, 0, 4); // small vertical spacing
 
-                // Alternate row background color (zebra effect)
-                if (i % 2 == 0) {
-                    row.setBackgroundColor(Color.parseColor("#1E1E1E"));
-                } else {
-                    row.setBackgroundColor(Color.parseColor("#2A2A2A"));
-                }
 
                 // ===== Column 1: Category Name =====
                 TextView col1 = new TextView(this);
@@ -90,6 +101,17 @@ public class BudgetDetailsActivity extends AppCompatActivity {
             }
         }
 
+
+
+        webUrlButton.setOnClickListener(v ->
+        {
+            Intent intent1 = new Intent(BudgetDetailsActivity.this, WebActivity.class);
+            Bundle bundle1 = new Bundle();
+
+            bundle1.putString("url", weburl);
+            intent1.putExtras(bundle1);
+            startActivity(intent1);
+        });
     }
 
 }

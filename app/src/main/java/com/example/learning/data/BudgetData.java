@@ -1,4 +1,4 @@
-package com.example.learning;
+package com.example.learning.data;
 
 import android.content.Context;
 import android.util.Log;
