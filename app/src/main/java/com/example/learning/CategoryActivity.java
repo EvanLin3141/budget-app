@@ -28,8 +28,6 @@ public class CategoryActivity extends AppCompatActivity {
     ArrayList<Category> selectedExpenditure;
     ArrayList<Category> selectedEntertainment;
 
-
-    ArrayList<Month> months;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,9 +39,10 @@ public class CategoryActivity extends AppCompatActivity {
             return insets;
         });
 
-
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
+
+        assert bundle != null;
         categoryView = findViewById(R.id.category);
         selectedMonth = (Month)bundle.getSerializable("month");
         selectedYear = (Year)bundle.getSerializable("year");
@@ -53,9 +52,9 @@ public class CategoryActivity extends AppCompatActivity {
         LinearLayout entertainment = findViewById(R.id.entertainmentCard);
 
         txtTitle = findViewById(R.id.txtTitle);
-        txtTitle.setText(selectedMonth.getMonth() + selectedYear.getYear());
+        txtTitle.setText(selectedMonth.getMonth() + " " + selectedYear.getYear());
 
-
+        // Variables for onClickListeners
         selectedIncome = selectedMonth.getIncome();
         selectedExpenditure = selectedMonth.getExpenditure();
         selectedEntertainment = selectedMonth.getEntertainment();

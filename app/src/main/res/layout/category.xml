@@ -8,7 +8,6 @@
     android:layout_height="match_parent"
     tools:context=".CategoryActivity">
 
-    <!-- ===== Title Text ===== -->
     <TextView
         android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
@@ -24,7 +23,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- ===== Container for Category Cards ===== -->
     <LinearLayout
         android:id="@+id/category"
         android:layout_width="match_parent"
@@ -37,7 +35,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txtTitle">
 
-        <!-- ===== Income Card ===== -->
         <LinearLayout
             android:id="@+id/incomeCard"
             android:layout_width="350dp"
@@ -79,7 +76,6 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- ===== Expenditure Card ===== -->
         <LinearLayout
             android:id="@+id/expenditureCard"
             android:layout_width="350dp"

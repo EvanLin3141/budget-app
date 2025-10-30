@@ -25,8 +25,6 @@ public class YearlyBudgetActivity extends AppCompatActivity implements RecycleVi
     RecyclerView monthRecycleView;
     Year selectedYear;
     TextView txtTitle;
-    MonthAdapter monthAdapter;
-
     ArrayList<Month> months;
 
     @Override
@@ -40,10 +38,10 @@ public class YearlyBudgetActivity extends AppCompatActivity implements RecycleVi
             return insets;
         });
 
-
-        // get data
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
+
+        // Present recycle view of the months
         monthRecycleView = findViewById(R.id.monthRecycleView);
         selectedYear= (Year)bundle.getSerializable("year");
 
@@ -51,6 +49,8 @@ public class YearlyBudgetActivity extends AppCompatActivity implements RecycleVi
         txtTitle.setText(selectedYear.getYear() + " Budget");
 
         months = selectedYear.getMonths();
+
+        // Setting data to the adapter
         RecyclerView monthRecycleView = findViewById(R.id.monthRecycleView);
         MonthAdapter monthAdapter = new MonthAdapter(getApplicationContext(), R.layout.month, months, this);
         monthRecycleView.setLayoutManager(new LinearLayoutManager(this));
@@ -60,11 +60,9 @@ public class YearlyBudgetActivity extends AppCompatActivity implements RecycleVi
     @Override
     public void onItemClick(int position) {
         Month selectedMonth = months.get(position);
-        Toast.makeText(this,"selected "+selectedMonth, Toast.LENGTH_SHORT).show();
 
         Intent intent = new Intent(YearlyBudgetActivity.this, CategoryActivity.class);
         Bundle bundle = new Bundle();
-
         bundle.putSerializable("month", selectedMonth);
         bundle.putSerializable("year", selectedYear);
         intent.putExtras(bundle);

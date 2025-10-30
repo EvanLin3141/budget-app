@@ -40,7 +40,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- ✅ This controls row width -->
             <TableLayout
                 android:id="@+id/tableLayout"
                 android:layout_width="300dp"

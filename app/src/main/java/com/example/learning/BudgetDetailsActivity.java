@@ -73,7 +73,7 @@ public class BudgetDetailsActivity extends AppCompatActivity {
                 TableRow row = new TableRow(this);
 
 
-                // ===== Column 1: Category Name =====
+                // Column 1: Category Name
                 TextView col1 = new TextView(this);
                 col1.setText(item.getName());
                 col1.setTextColor(Color.parseColor("#E0E0E0"));
@@ -83,7 +83,7 @@ public class BudgetDetailsActivity extends AppCompatActivity {
                 col1.setGravity(Gravity.START);
                 col1.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f));
 
-                // ===== Column 2: Amount =====
+                // Column 2: Amount
                 TextView col2 = new TextView(this);
                 col2.setText("$" + item.getAmount());
                 col2.setTextColor(Color.WHITE);
@@ -100,8 +100,6 @@ public class BudgetDetailsActivity extends AppCompatActivity {
                 tableLayout.addView(row);
             }
         }
-
-
 
         webUrlButton.setOnClickListener(v ->
         {
